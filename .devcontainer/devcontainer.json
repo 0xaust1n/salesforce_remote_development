@@ -1,0 +1,36 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.191.0/containers/javascript-node
+{
+  "name": "Node.js",
+  "build": {
+    // Update 'VARIANT' to pick a Node version: 12, 14, 16
+    "args": {
+		"VARIANT": "14"
+	},
+	"dockerfile": "Dockerfile",
+  },
+  // Set *default* container specific settings.json values on container create.
+  "settings": {
+    "salesforcedx-vscode-apex.java.home": "/usr/lib/jvm/java-1.11.0-openjdk-amd64"
+  },
+  // Add the IDs of extensions you want installed when the container is created.
+  "extensions": [
+	"dbaeumer.vscode-eslint",
+	"salesforce.salesforcedx-vscode",
+	"redhat.vscode-commons",
+	"esbenp.prettier-vscode",
+	"fallenmax.mithril-emmet",
+	"redhat.java",
+	"oderwat.indent-rainbow",
+	"editorconfig.editorconfig",
+	"formulahendry.auto-complete-tag",
+	"financialforce.lana",
+	"ajinkya-hingne.salesforce-snippets"
+],
+  // Use 'forwardPorts' to make a list of ports inside the container available locally.
+  // "forwardPorts": [],
+  // Use 'postCreateCommand' to run commands after the container is created.
+  // "postCreateCommand": "yarn install",
+  // Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+  "remoteUser": "node",
+}
