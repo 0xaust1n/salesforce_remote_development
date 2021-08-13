@@ -15,18 +15,20 @@
   },
   // Add the IDs of extensions you want installed when the container is created.
   "extensions": [
-    "dbaeumer.vscode-eslint",
-    "salesforce.salesforcedx-vscode",
-    "redhat.vscode-commons",
-    "esbenp.prettier-vscode",
-    "fallenmax.mithril-emmet",
-    "redhat.java",
-    "oderwat.indent-rainbow",
-    "editorconfig.editorconfig",
-    "formulahendry.auto-complete-tag",
-    "financialforce.lana",
-    "ajinkya-hingne.salesforce-snippets"
-  ],
+	"dbaeumer.vscode-eslint",
+	"salesforce.salesforcedx-vscode",
+	"redhat.vscode-commons",
+	"esbenp.prettier-vscode",
+	"fallenmax.mithril-emmet",
+	"redhat.java",
+	"oderwat.indent-rainbow",
+	"editorconfig.editorconfig",
+	"formulahendry.auto-complete-tag",
+	"financialforce.lana",
+	"ajinkya-hingne.salesforce-snippets",
+	"eamodio.gitlens",
+	"yzhang.markdown-all-in-one"
+],
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   // "forwardPorts": [],
   // Use 'postCreateCommand' to run commands after the container is created.
